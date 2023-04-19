@@ -175,8 +175,7 @@ public class ActVideoTrimmer extends LocalizationActivity {
                 imageFour, imageFive, imageSix, imageSeven, imageEight};
         seekHandler = new Handler();
         initPlayer();
-        if (checkStoragePermission())
-            setDataInView();
+        setDataInView();
     }
 
     private void setUpToolBar(ActionBar actionBar, String title) {
